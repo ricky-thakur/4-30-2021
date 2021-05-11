@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+:root {
+    --primary-color: #FF5E62;
+    --secondary-color: #23242C;
+    --white-color: #fff;
+    --font-open: 'Open Sans', sans-serif;
+
+}
+/* @font-face {
+    font-family: 'Open Sans', sans-serif;
+} */
+body {
+    background: #ECEFF1;
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif !important;
+}
+section.top_header {
+    padding: 12px;
+    border-bottom: 1px solid #ECEFF1;
+}
+h1.heading_news {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin: 0;
+}
+.card {
+    box-shadow: 0px 4px 12px rgb(60 60 60 / 50%);
+    border-radius: 20px;
+}
+.sb-icon-search:before {
+    background: url(../img/icon-search.png);
+    content: '';
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 17px;
+    top: 13px;
+}
+section.latest_news {
+    padding: 12px 12px 0;
+    position: relative;
+    margin-bottom: 15px;
+}
+section.latest_news img {
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgb(60 60 60 / 50%);
+}
+.latest_news_text {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: var(--white-color);
+    padding: 0 20px;
+}
+.latest_news_text p.lnt_heading {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.latest_news_text p.lnt_date {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.latest_news_text p.lnt_text {
+    font-size: 16px;
+    margin-bottom: 0;
+}
